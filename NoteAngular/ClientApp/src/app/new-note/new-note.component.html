@@ -1,0 +1,10 @@
+<div class="main">
+    <div class="container">
+        <p>title</p>
+        <input class="inpt" type="text" [(ngModel)]="note.title"/>
+        <p>description</p>
+        <textarea class="inpt" cols="20" rows="5" [(ngModel)]="note.description"></textarea>
+
+        <button class="btn" (click)="Send()" style="width: 100px; height: 40px;" >Send</button>
+    </div>
+</div>
